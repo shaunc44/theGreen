@@ -7,6 +7,10 @@ h1 {
 	border-style: solid dotted solid dotted;
 	text-align: center;
 	font-size: 36px;
+	text-shadow: 2px 2px #000000,
+		-2px -2px #000000,
+		2px -2px #000000,
+		-2px 2px #000000;
 }
 
 
@@ -15,4 +19,9 @@ p {
 	text-shadow: 2px 4px 2px #800080;
 	text-align: center;
 	font-size: 24px;
+}
+
+.greeting {
+
+
 }
