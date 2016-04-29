@@ -14,6 +14,25 @@ h1 {
 }
 
 
+/* Add hover states to Home and About buttons */
+a {
+	color: #000000;
+}
+
+a:hover,
+a:focus {
+	color: #ff0000;
+}
+
+a:visited {
+	color: #00ff00;
+}
+
+a:visited:hover,
+a:visited:focus {
+	color: #0088ff;
+}
+
 p {
 	color: white;
 	text-shadow: 2px 4px 2px #800080;
