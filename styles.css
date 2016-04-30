@@ -16,9 +16,26 @@ h1 {
 
 /* Add hover states to Home and About buttons */
 a {
-	color: #000000;
+	background: #0000ff;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 30px;
+	text-decoration: none;
 }
 
+a:hover {
+	padding: 10px 80px;
+	background: #ff0000;
+}
+
+a.transition {
+	/* the vendor prefix "-webkit" is required for Safari and Chrome support */
+	-webkit-transition: padding .5s,
+		background-color 1.5s;
+		transition: padding .5s, background-color 1.5s;
+}
+
+/*
 a:hover,
 a:focus {
 	color: #ff0000;
@@ -32,6 +49,7 @@ a:visited:hover,
 a:visited:focus {
 	color: #0088ff;
 }
+*/
 
 p {
 	color: white;
