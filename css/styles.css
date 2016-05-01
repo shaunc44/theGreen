@@ -1,8 +1,10 @@
 * {
-	background-color: green;
+	background-color: #8fc880;
+	color: #4d4d4d;
 }
 
 h1 {
+	color: white;
 	border-style: solid dotted solid dotted;
 	text-align: center;
 	font-size: 36px;
@@ -12,11 +14,10 @@ h1 {
 		-2px 2px #000000;
 }
 
-
 /* Add hover states to Home and About buttons */
 a {
-	background: #0000ff;
-	color: #fff;
+	background: #ccffff;
+	color: #000;
 	display: inline-block;
 	padding: 10px 30px;
 	text-decoration: none;
@@ -50,6 +51,14 @@ a:visited:focus {
 }
 */
 
+
+/* Add radii and box shadows to the button */
+.transition,
+.no-transition {
+	border-radius: 15px;
+	box-shadow: 5px 5px 3px #121212;
+}
+
 p {
 	color: white;
 	text-shadow: 2px 4px 2px #800080;
@@ -61,3 +70,10 @@ p {
 
 
 }
+
+
+
+
+
+
+
