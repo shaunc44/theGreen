@@ -4,14 +4,14 @@
 }
 
 h1 {
-	color: black;
-	border-style: solid dotted solid dotted;
+	font-family: 'Allura', cursive;
+	color: #004400;
+	text-shadow:
+		1px 1px 0px #ededed,
+		4px 4px 0px rgba(0,0,0,0.15);
+	/*border-style: solid dotted solid dotted;*/
 	text-align: center;
 	font-size: 36px;
-	text-shadow: 2px 2px #fff,
-		-2px -2px #fff,
-		2px -2px #fff,
-		-2px 2px #fff;
 	bottom: 0px;
 	opacity: 0;
 	position: relative;
